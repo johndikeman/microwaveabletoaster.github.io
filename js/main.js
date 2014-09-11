@@ -20,7 +20,7 @@ function init()
 	document.body.appendChild(renderer.domElement);
 
 	//make a sphere with 50 radius, and a lambert mesh with a color
-	sphereMesh = new THREE.Mesh(new THREE.SphereGeometry(50,32,32),new THREE.MeshLambertMaterial({color: 0xAEEDC7}))
+	sphereMesh = new THREE.Mesh(new THREE.SphereGeometry(2,32,32),new THREE.MeshLambertMaterial({color: 0xAEEDC7}))
 	scene.add(sphereMesh);
 
 	var light = new THREE.AmbientLight( 0x404040 ); // soft white light
