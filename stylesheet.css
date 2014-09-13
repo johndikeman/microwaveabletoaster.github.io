@@ -1,13 +1,13 @@
 #center 
 {
-	width: 300px;
-	height: 400px;
+	width: 400px;
+	height: 500px;
 	background-color: #75FFFF;
 	margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-    border: 5px solid #33CCCC;
+    border: 2px solid #33CCCC;
     border-radius: 10px;
 }
 
@@ -15,6 +15,7 @@ body
 {
     background-image: url("assets/cloudy.png");
     background-repeat: repeat-x;
+    background-color: #B2FFFF;
 }
 
 .centerLink
@@ -22,4 +23,38 @@ body
 	text-align: center;
     font-family: 'Open Sans Condensed';
     font-size: 300%
+}
+
+#side  
+{
+	width: 0px;
+	height: 500px;
+	background-color: #75FFFF;
+	border: 2px solid #33CCCC;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+
+
+/*	animation stuff
+*/	-webkit-animation-duration: .3s;
+}
+
+@-webkit-keyframes comeout 
+{
+    from {width: 0px;}
+    to {width: 300px;}
+}
+
+
+#button
+{
+	position: absolute;
+	top:20px;
+	left: 100px;
+	background-color: #75FFFF;
+	border: 2px solid #33CCCC;
+    border-radius: 10px;
 }
