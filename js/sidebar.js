@@ -1,7 +1,8 @@
 var element = document.getElementById('side');
 var nodeList = document.getElementsByClassName('sideNav');
 var out = false;
-
+var height = window.innerHeight;
+element.style.length= height
 
 document.getElementById('button').onclick = function()
 {
@@ -9,6 +10,8 @@ document.getElementById('button').onclick = function()
     {
     	element.style.webkitAnimationName = 'comein';
     	element.style.width = 0;
+    	element.style.height= height;
+
     	for (var i = 0, length = nodeList.length; i < length; i++) 
     	{
      		nodeList[i].style.width = 0;
@@ -22,6 +25,8 @@ document.getElementById('button').onclick = function()
     {
     	element.style.webkitAnimationName = 'comeout';
     	element.style.width = 300;
+    	element.style.height= height;
+
     	for (var i = 0, length = nodeList.length; i < length; i++) 
     	{
      		nodeList[i].style.width = 300;
