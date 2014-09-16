@@ -8,7 +8,7 @@
     margin-top: auto;
     margin-bottom: auto;
     border: 2px solid #33CCCC;
-    border-radius: 10px;
+
 }
 
 body 
@@ -38,7 +38,6 @@ body
 	height: 500px;
 	background-color: #75FFFF;
 	border: 2px solid #33CCCC;
-    border-radius: 10px;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -82,4 +81,6 @@ body
 	text-align: center;
     font-family: 'Open Sans Condensed';
     font-size: 0px;
+    background-color: #75FFFF;
+    -webkit-animation-duration: .3s;
 }

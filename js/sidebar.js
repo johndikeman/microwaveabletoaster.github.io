@@ -1,8 +1,22 @@
 var element = document.getElementById('side');
+var midPanel = document.getElementById('center');
 var nodeList = document.getElementsByClassName('sideNav');
+
 var out = false;
+
 var height = window.innerHeight;
-element.style.length= height
+var width = window.innerWidth;
+var hFourth = height/4;
+var wFourth = width/4;
+
+midPanel.style.height = hFourth*2;
+midPanel.style.width = wFourth*2;
+
+for (var i = 1, length = nodeList.length; i < length; i+=2)
+{
+	nodeList[i].style.backgroundColor = '#33CCCC';
+} 
+
 
 document.getElementById('button').onclick = function()
 {
