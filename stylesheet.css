@@ -22,7 +22,8 @@ body
 {
 	text-align: center;
     font-family: 'Oswald';
-    font-size: 300%;
+    font-size: 400%;
+   	color: #33CCCC;
 }
 
 #centerBody
@@ -88,6 +89,9 @@ body
 .sideLink
 {
 	color: #33CCCC;
+	font-size: 200%;
+	margin-bottom: auto;
+	margin-top: auto;
 }
 
 a:link 
