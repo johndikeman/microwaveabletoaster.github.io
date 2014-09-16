@@ -21,15 +21,15 @@ body
 .centerLink
 {
 	text-align: center;
-    font-family: 'Open Sans Condensed';
-    font-size: 300%
+    font-family: 'Oswald';
+    font-size: 300%;
 }
 
 #centerBody
 {
 	text-align: center;
 	font-family: 'Open Sans Condensed';
-    font-size: 200%
+    font-size: 200%;
 }
 
 #side  
@@ -79,8 +79,18 @@ body
 	width:0px;
 	height: 100px;
 	text-align: center;
-    font-family: 'Open Sans Condensed';
+    font-family: 'Oswald';
     font-size: 0px;
     background-color: #75FFFF;
     -webkit-animation-duration: .3s;
+}
+
+.sideLink
+{
+	color: #33CCCC;
+}
+
+a:link 
+{
+    text-decoration: none;
 }
