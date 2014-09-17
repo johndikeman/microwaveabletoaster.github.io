@@ -47,6 +47,8 @@ body
 
 /*	animation stuff
 */	-webkit-animation-duration: .3s;
+	animation-duration:.3s;
+
 }
 
 @-webkit-keyframes comeout 
@@ -56,6 +58,18 @@ body
 }
 
 @-webkit-keyframes comein
+{
+	from{width:300px;}
+	to{width:0px;}
+}
+
+@keyframes comeout 
+{
+    from {width: 0px;}
+    to {width: 300px;}
+}
+
+@keyframes comein
 {
 	from{width:300px;}
 	to{width:0px;}
@@ -84,6 +98,7 @@ body
     font-size: 0px;
     background-color: #75FFFF;
     -webkit-animation-duration: .3s;
+    animation-duration:.3s;
 }
 
 .sideLink
@@ -97,4 +112,11 @@ body
 a:link 
 {
     text-decoration: none;
+}
+
+a
+{
+	display: block;
+	width: 100%;
+	height: 100%;
 }
