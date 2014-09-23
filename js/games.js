@@ -6,5 +6,12 @@ var height = window.innerHeight;
 center.style.width = width-200;
 center.style.height = height-50;
 
-thumbHolderWidth = (width-200)/5;
-thumbHolderHeight = (height-50)/3;
+
+var left = document.getElementById('left');
+var right = document.getElementById('right');
+
+left.style.top = height/2-40;
+right.style.top = height/2-40;
+
+
+
