@@ -114,25 +114,58 @@ a:link
     text-decoration: none;
 }
 
-a
+/*a
 {
 	display: block;
 	width: 100%;
 	height: 100%;
+}*/
+
+.gameLink
+{
+	width: 100%;
+	height: 100%;
 }
 
-#left
+.gameCarousel 
 {
-	position: absolute;
-	left: 20px;
-	margin-top: auto;
-	margin-bottom: auto;
+	width: 800px;
+	height: 500px;
+	background-color: #75FFFF;
+    border: 2px solid #33CCCC;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    z-index: -200;
+
+    -webkit-animation-duration: .3s;
+
 }
 
-#right
+/*these get modified by the javascipt*/
+@-webkit-keyframes goLeft 
+{}
+@-webkit-keyframes comein
+{}
+
+.gameThumbnail
 {
-	position: absolute;
-	right: 20px;
-	margin-top: auto;
-	margin-bottom: auto;
+	position: relative;
+	left: 675px;
+	top: 100px;
+}
+
+.gameDescr
+{
+	position: relative;
+	font-family: 'Open Sans Condensed';
+	text-align: left;
+	font-size: 300%;
+	color: #33CCCC;
+	font-weight: 900;
+	width:500px;
+	bottom: 100px;
+	left:50px;
+
 }
