@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>john cena's PUNCH THE NERD</title>
+		<link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+	</head>
+	<style>
+		#gameContainer
+		{
+			margin: 0 auto;
+		}
+		#scoreContainer
+		{
+			position:absolute;
+			left:20px;
+			top:10px;
+			font-family: 'Oswald', sans-serif;
+			font-size: 300%;		
+		}
+		#timeContainer
+		{
+			position: absolute;
+			left:500px;
+			top: 650px;
+			font-family: 'Oswald', sans-serif;
+			font-size: 300%;		
+		}
+		#instructions
+		{
+			font-family: 'Oswald',sans-serif;
+			font-size: 250%;
+		}
+		#finalScore
+		{
+			position: absolute;
+			left:150px;
+			top: 350px;
+			font-family: 'Oswald', sans-serif;
+			font-size: 300%;
+		}
+	</style>
+	<body>
+		<div id='finalScore'></div>
+		<div id="timeContainer"></div>
+		<div id='gameContainer'></div>
+		<div id='scoreContainer'></div>
+		<div id='instructions'>use WASD to move, and p to PUNCH</div>
+		<script type="text/javascript" src='js/phaser.js'></script>
+		<script type="text/javascript" src='js/main.js'></script>
+	</body>
+</html>

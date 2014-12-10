@@ -1,0 +1,61 @@
+.title
+	{
+		text-align: center;
+		font-family: 'Montserrat';
+		font-size: 50px;
+		color:#999999;
+		
+	}
+	
+.gameFrameTitle
+	{
+		position: relative;
+		bottom: 80%;
+		text-align: center;
+		font-family: 'Montserrat';
+		font-size: 25px;
+		color: #2E2E2E;
+	}
+
+.gameDescription
+	{
+		position: relative;
+		width: 75%;
+		left: 250px;
+		bottom: 75%;
+		font-family: 'Montserrat';
+		font-size: 20px;
+		color: #2E2E2E;
+			
+	}
+	
+a:link
+	{
+		text-decoration: none;
+	}
+	
+.gameHolder
+	{
+		width: 1000px;
+		height: 250px;
+		float: top;
+		background-color: #999999;
+		margin-left: auto; margin-right: auto;
+		margin-bottom: 25px;
+		padding-top: 25px; padding-left:25px;
+	}
+
+.gameThumbFrame
+	{
+		position: relative;
+		width: 200px;
+		height:170px;
+		margin-top: auto; margin-bottom: auto;
+		border:16px solid;
+		border-color: #2E2E2E;
+	}
+
+html
+	{
+		background-color: #2E2E2E;
+	}
