@@ -4,7 +4,6 @@
 		}
 html{
 	background-color: #000000;
-	padding: 0px;
 }
 div,h1{
 	font-family: courierNew;
@@ -15,6 +14,7 @@ div,h1{
 	text-align: center;
 	-webkit-transition: .3s;
 	-moz-transition: .3s;
+	font-size: 3em;
 }
 
 #title:hover{
@@ -23,6 +23,8 @@ div,h1{
 }
 
 #mainBody{
+	position: relative;
+	top: 150%;
 	visibility: hidden;
 	-webkit-animation-duration: 1s;
 	-animation-duration: 1s;
@@ -30,7 +32,7 @@ div,h1{
 
 .option{
 	position: relative;
-	font-size: 5em;
+	font-size: 3.7em;
 	text-align: center;
 	padding-top: .5em;
 	
@@ -49,5 +51,4 @@ a:hover{
 	color: #124D12;
 	position: relative;
 	top: -5px;
-	
 }

@@ -6,6 +6,6 @@ theater
 			.addClass('animated fadeIn');
 		})
 
-	.describe("john", { speed: .9, accuracy: .6, invincibility: 4 }, "#title")
+	.describe("john", { speed: .7, accuracy: .6, invincibility: 4 }, "#title")
 	.write("john:lil brother softworks.", 1000)
 
