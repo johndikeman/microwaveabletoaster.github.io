@@ -1,61 +1,53 @@
-.title
-	{
-		text-align: center;
-		font-family: 'Montserrat';
-		font-size: 50px;
-		color:#999999;
+@font-face {
+    		font-family: courierNew;
+    		src: url(fonts/Courier_Prime.ttf);
+		}
+html{
+	background-color: #000000;
+	padding: 0px;
+}
+div,h1{
+	font-family: courierNew;
+	color: #26A626;
+}
+
+#title{
+	text-align: center;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+}
+
+#title:hover{
+	color: #124D12;
+	cursor: default;
+}
+
+#mainBody{
+	visibility: hidden;
+	-webkit-animation-duration: 1s;
+	-animation-duration: 1s;
+}
+
+.option{
+	position: relative;
+	font-size: 5em;
+	text-align: center;
+	padding-top: .5em;
+	
+}
+
+a{
+	text-decoration: none;
+	color: #26A626;
+	cursor: pointer;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
 		
-	}
-	
-.gameFrameTitle
-	{
-		position: relative;
-		bottom: 80%;
-		text-align: center;
-		font-family: 'Montserrat';
-		font-size: 25px;
-		color: #2E2E2E;
-	}
+}
 
-.gameDescription
-	{
-		position: relative;
-		width: 75%;
-		left: 250px;
-		bottom: 75%;
-		font-family: 'Montserrat';
-		font-size: 20px;
-		color: #2E2E2E;
-			
-	}
+a:hover{
+	color: #124D12;
+	position: relative;
+	top: -5px;
 	
-a:link
-	{
-		text-decoration: none;
-	}
-	
-.gameHolder
-	{
-		width: 1000px;
-		height: 250px;
-		float: top;
-		background-color: #999999;
-		margin-left: auto; margin-right: auto;
-		margin-bottom: 25px;
-		padding-top: 25px; padding-left:25px;
-	}
-
-.gameThumbFrame
-	{
-		position: relative;
-		width: 200px;
-		height:170px;
-		margin-top: auto; margin-bottom: auto;
-		border:16px solid;
-		border-color: #2E2E2E;
-	}
-
-html
-	{
-		background-color: #2E2E2E;
-	}
+}

@@ -1,39 +1,21 @@
+<!DOCTYPE html>
 <html>
-<title>maketoastnotwar</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
-<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="stylesheet" type="text/css" href="animate.css">
+	</head>
 
-<div class='title'>john dikeman</div>
 
-<a href='experiment.html'>
-	<div class='gameHolder'>
-		<div class='gameThumbFrame'>
-			<img height='170px' width='200px' src='thumbs/webglpic.png'/>
-		</div>
-		<div class='gameFrameTitle'>webgl experiment</div>
-		<div class='gameDescription'>this was my first attempt at the webGL framework. I used three.js and Chrome's pointer lock controls to create a simplistic world of a platform and a sphere. only works on Chrome, and mobile is not supported. click on the blank screen to begin.</div>
+	<h1 id='title'></h1>
+
+	<div id='mainBody'>
+		<div class='option'><a href='#'>software</a></div>
+		<div class='option'><a href='#'>games</a></div>
+		<div class='option'><a href='#'>about</a></div>
 	</div>
-</a>
 
-<a href='bananarama.html'>
-	<div class='gameHolder'>
-		<div class='gameThumbFrame'>
-			<img height='170px' width='200px' src='thumbs/monkey1.png'/>
-		</div>
-		<div class='gameFrameTitle'>BANANA-RAMA</div>
-		<div class='gameDescription'>a little game written with phaser.js. works on any browser, including mobile! fire bananas at the hungry monkeys. be warned: the 'menu' and 'retry' buttons don't work due to my utter befuddlement with OOP in javascript, so there's that.</div>
-	</div>
-</a>
-
-<a href='punchthenerd/punchthenerd.html'>
-	<div class='gameHolder'>
-		<div class='gameThumbFrame'>
-			<img height='170px' width='200px' src='thumbs/johncena.png'/>
-		</div>
-		<div class='gameFrameTitle'>john cena's PUNCH THE NERD</div>
-		<div class='gameDescription'>my submission to the John Cena Game Jam, which is just as magical as it sounds. it's on itch.io here: http://microwaveabletoaster.itch.io/john-cenas-punch-the-nerd</div>
-	</div>
-</a>
-
+	<script src="theater.js"></script>
+	<script src='jquery.js'></script>
+	<script src='main.js'></script>
 
 </html>
