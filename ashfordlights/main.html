@@ -18,19 +18,26 @@
 		
 	}
 
-	#audioContainer{
+/*	#audioContainer{
 		position:absolute;
 		left:25%;
 		top:20%;
+		text-align: center;
+	}*/
+
+	#aud{
+		position: absolute;
+		width:50%;
+		left:25%;
+		top:10%;
 	}
 </style>
 
-<div id='audioContainer'>
-	<audio controls='controls'>  
-	      <source src="data/wbt.mp3" type="audio/mp3">   
-	      <p>oh good god. get a real browser please.</p>
-	</audio>
-</div>
+<audio id='aud' controls='controls'>  
+      <source src="data/wbt.mp3" type="audio/mp3">   
+      <p>oh good god. get a real browser please.</p>
+</audio>
+
 
 <div id='pulse'></div>
 
