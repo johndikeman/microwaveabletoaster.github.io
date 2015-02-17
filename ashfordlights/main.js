@@ -40,6 +40,7 @@ window.onload = function() {
         }
 
         avrg = total/count;
+        console.log(avrg);
         div.style.width = div.style.height = Math.floor(avrg);
         div.style.borderRadius = ''+Math.floor(Math.floor(avrg)/2)+'px';
         div.style.marginLeft = div.style.marginTop = -1*(Math.floor(avrg)/2)
