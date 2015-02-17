@@ -1,22 +1,38 @@
 <html>
 <script src='main.js'></script>
 <style>
-	span{
-		width:20px;
-		height: 20px;
-		border-radius: 10px;
-		background-color: #3399FF;
+	html{
+		background-color: #000000;
+	}
 
+	#pulse{
+		position: absolute;
+		top:50%;
+		left:50%;
+		width:40px;
+		height: 40px;
+		margin-left: -20px;
+		margin-bottom: -20px;
+		border-radius: 20px;
+		background-color: #ffffff;
+		
+	}
+
+	#audioContainer{
+		position:absolute;
+		left:25%;
+		top:20%;
 	}
 </style>
 
-<audio controls>  
-      <source src="data/wbt.mp3" type="audio/mp3">   
-      <p>oh good god. get a real browser please.</p>
-</audio>
+<div id='audioContainer'>
+	<audio controls>  
+	      <source src="data/wbt.mp3" type="audio/mp3">   
+	      <p>oh good god. get a real browser please.</p>
+	</audio>
+</div>
 
-
-<body></body>
+<div id='pulse'></div>
 
 
 </html>
