@@ -5,15 +5,10 @@ window.onload = function() {
     
     var audioSrc = ctx.createMediaElementSource(audio);
     var analyser = ctx.createAnalyser();
-    var filter = ctx.createBiquadFilter();
-    filter.type = 'highshelf';
-    filter.frequency.value = 7000;
-    filter.gain.value = 50;
 
     // we have to connect the MediaElementSource with the analyser 
-    audioSrc.connect(filter);
-    filter.connect(analyser);
-    audioSrc.connect(ctx.destination);
+    audioSrc.connect(analyser);
+    analyser.connect(ctx.destination);
     // analyser.connect(ctx.destination);
 
     // frequencyBinCount tells you how many values you'll receive from the analyser
