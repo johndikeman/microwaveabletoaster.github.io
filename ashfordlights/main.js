@@ -1,14 +1,18 @@
 window.onload = function() {
+    var rising = true;
     var ctx = new (window.AudioContext||window.webkitAudioContext)();
     var audio = document.querySelector('audio');
     var output = document.getElementById("output");
     
     var audioSrc = ctx.createMediaElementSource(audio);
     var analyser = ctx.createAnalyser();
+    var biquad = ctx.createBiquadFilter();
+    biquad.type = 'notch';
 
     // we have to connect the MediaElementSource with the analyser 
-    audioSrc.connect(analyser);
-    analyser.connect(ctx.destination);
+    audioSrc.connect(biquad);
+    biquad.connect(analyser);
+    audioSrc.connect(ctx.destination);
     // analyser.connect(ctx.destination);
 
     // frequencyBinCount tells you how many values you'll receive from the analyser
@@ -18,11 +22,19 @@ window.onload = function() {
     // loop
 
     var div = document.getElementById("pulse");
+    var value = document.getElementById("value");
 
+    var avrg = 0;
+    var oldAv = 0;
+
+    var time = ctx.currentTime;
+    var oldTime = 0;
 
     function renderFrame() {
+        
         total = count = 0;
         requestAnimationFrame(renderFrame);
+
 
         // update data in frequencyData
         analyser.getByteFrequencyData(frequencyData);
@@ -35,10 +47,20 @@ window.onload = function() {
         }
 
         avrg = total/count;
-        console.log(avrg);
+
+        if(ctx.currentTime-oldTime >= .05){  
+            oldTime = ctx.currentTime
+            if(avrg-oldAv>=5)
+                console.log('PEAK');
+             
+        }
+        
+
+        oldAv = avrg
         div.style.width = div.style.height = Math.floor(avrg);
         div.style.borderRadius = ''+Math.floor(Math.floor(avrg)/2)+'px';
         div.style.marginLeft = div.style.marginTop = -1*(Math.floor(avrg)/2)
+        // value.innerHTML = Math.floor(avrg);
 
 
     }
