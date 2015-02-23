@@ -1,6 +1,6 @@
 @font-face {
     		font-family: courierNew;
-    		src: url(fonts/Courier_Prime.ttf);
+    		src: url(../fonts/Courier_Prime.ttf);
 		}
 html{
 	background-color: #000000;
@@ -48,7 +48,13 @@ a{
 }
 
 a:hover{
-	color: #124D12;
 	position: relative;
 	top: -5px;
+}
+
+#twitter{
+	position:relative;
+	left:43.75%;
+	width:12.5%;
+	height:12.5%;
 }

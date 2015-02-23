@@ -1,2 +1,17 @@
-<html>
-	
+<html ng-app='lbsApp'>
+	<head>
+		<script src='js/angular.js'></script>
+		<script src='js/controllers.js'></script>
+	</head>
+
+	<body ng-controller='games'>
+		<ul>
+			<li id='game' ng-repeat='game in games'>
+				<span>{{game.name}}</span>
+				<p>{{game.description}}</p>
+			</li>
+		</ul>
+	</body>
+
+</html>
+
