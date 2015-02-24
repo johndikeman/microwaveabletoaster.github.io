@@ -5,17 +5,15 @@
 
 		<script src='js/angular.js'></script>
 		<script src='js/controllers.js'></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
 	</head>
 
 	<body ng-controller='games'>
-		<ul>
-			<li ng-repeat='game in games'>
-				<div class='container'>
-					<a class='containerTitle' href={{game.link}}>{{game.name}}</p>
-					{{game.description}}
-				</div>
-			</li>
-		</ul>
+		<div id='main'>
+
+		<div ng-view></div>
+		
+		</div>
 	</body>
 
 </html>
