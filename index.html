@@ -1,8 +1,12 @@
-<!DOCTYPE html>
+
 <html ng-app='lbsApp'>
 	<head>
 		<link rel="stylesheet" type="text/css" href="styles/styles.css">
 		<link rel="stylesheet" type="text/css" href="styles/animate.css">
+		<script src='js/angular.js'></script>
+		<script src="js/routing.js"></script>
+		<script src='js/controllers.js'></script>
+		
 	</head>
 
 
@@ -13,12 +17,22 @@
 	<div id='mainBody'>
 		<a class='linkOption' href='https://www.twitter.com/drdikeman'><img id='twitter' src='assets/twitter1.png'></a>
 		<div class='option'><a class='linkOption' href='#'>software</a></div>
-		<div class='option'><a class='linkOption' href='games.html'>games</a></div>
+		<div class='option'><a class='linkOption' href='#/games'>games</a></div>
 		<div class='option'><a class='linkOption' href='#'>about</a></div>
 	</div>
+
+	
+
+	<body ng-controller='mainController'>
+		<div id='main'>
+		<div ng-view></div>
+		</div>
+
+	</body>
 
 	<script src='js/theater.js'></script>
 	<script src='js/jquery.js'></script>
 	<script src='js/main.js'></script>
+	
 
 </html>
