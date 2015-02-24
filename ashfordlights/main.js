@@ -12,7 +12,7 @@ window.onload = function() {
     // we have to connect the MediaElementSource with the analyser 
     audioSrc.connect(biquad);
     biquad.connect(analyser);
-    audioSrc.connect(ctx.destination);
+    analyser.connect(ctx.destination);
     // analyser.connect(ctx.destination);
 
     // frequencyBinCount tells you how many values you'll receive from the analyser
@@ -53,21 +53,15 @@ window.onload = function() {
             if(avrg-oldAv>=5)
                 console.log('PEAK');
              
-        }
-        
+        } 
 
         oldAv = avrg
         div.style.width = div.style.height = Math.floor(avrg);
         div.style.borderRadius = ''+Math.floor(Math.floor(avrg)/2)+'px';
         div.style.marginLeft = div.style.marginTop = -1*(Math.floor(avrg)/2)
-        // value.innerHTML = Math.floor(avrg);
-
-
+        // value.innerHTML = Math.floor(avrg)
     }
 
     renderFrame();
-
-
-
 };
 

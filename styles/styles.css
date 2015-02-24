@@ -47,7 +47,7 @@ a{
 		
 }
 
-a:hover{
+.linkOption:hover{
 	position: relative;
 	top: -5px;
 }
@@ -58,3 +58,16 @@ a:hover{
 	width:12.5%;
 	height:12.5%;
 }
+
+.container{
+	position:absolute;
+	left: 10%;
+	font-size: 1.5em;
+	text-align: center;
+	width:80%;
+	height: 30%;
+	border: 2px solid;
+	border-color: #26A626;
+}
+
+
