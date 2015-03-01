@@ -3,7 +3,7 @@ games = [
             {'name':'example','description':'this is an example game','image':'thumbs/johncena.png'},
 
         ];
-]
+
     // create the module and name it scotchApp
         // also include ngRoute for all our routing needs
     var lbsApp = angular.module('lbsApp', ['ngRoute']);
