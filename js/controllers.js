@@ -21,7 +21,7 @@
             })
 
             // route for the contact page
-            .when('/contact', {
+            .when('/software', {
                 templateUrl : 'software.html',
                 controller  : 'softwareController'
             });
