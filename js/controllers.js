@@ -1,5 +1,9 @@
 // script.js
+games = [
+            {'name':'example','description':'this is an example game','image':'thumbs/johncena.png'},
 
+        ];
+]
     // create the module and name it scotchApp
         // also include ngRoute for all our routing needs
     var lbsApp = angular.module('lbsApp', ['ngRoute']);
@@ -24,6 +28,12 @@
             .when('/software', {
                 templateUrl : 'software.html',
                 controller  : 'softwareController'
+            })
+
+            .when('/games/:game_id',{
+                templateUrl: 'gamePage.html'
+                controller: 'gamePageController'
+
             });
     });
 
@@ -34,9 +44,18 @@
     });
 
     lbsApp.controller('gamesController', function($scope) {
-        $scope.message = 'Look! I am an about page.';
+        $scope.games = games;
     });
 
     lbsApp.controller('softwareController', function($scope) {
         $scope.message = 'Contact us! JK. This is just a demo.';
+    });
+
+    lbsApp.controller('gamePageController',function($scope,$routeParams){
+        $scope.game = $routeParams.game_id;
+
+        for(a=0;a<games.length;a++){
+            if(games[a].name = $scope.game)
+                $scope.gameObject = games[a];
+        }
     });
