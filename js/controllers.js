@@ -31,7 +31,7 @@ games = [
             })
 
             .when('/games/:game_id',{
-                templateUrl: 'gamePage.html'
+                templateUrl: 'gamePage.html',
                 controller: 'gamePageController'
 
             });
