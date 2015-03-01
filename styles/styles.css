@@ -25,7 +25,6 @@ div,h1{
 #mainBody{
 	position: relative;
 	top: 150%;
-	visibility: hidden;
 	-webkit-animation-duration: 1s;
 	-animation-duration: 1s;
 }
