@@ -1,7 +1,7 @@
 // script.js
 games = [
-            {'name':'example','description':'this is an example game','image':'thumbs/johncena.png'},
-            {'name':'example2','description':'  this is another example game. it has more text, and also indentation! swag swag swagggg.','image':'thumbs/johncena.png'},
+            {'name':'game','description':'this is an example game','image':'thumbs/johncena.png'},
+            {'name':'not a game','description':'  this is another example game. it has more text, and also indentation! swag swag swagggg.','image':'thumbs/johncena.png'},
 
         ];
 
