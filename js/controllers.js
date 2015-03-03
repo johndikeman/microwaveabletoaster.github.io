@@ -1,6 +1,7 @@
 // script.js
 games = [
             {'name':'example','description':'this is an example game','image':'thumbs/johncena.png'},
+            {'name':'example2','description':'this is an example game','image':'thumbs/johncena.png'},
 
         ];
 

@@ -60,15 +60,9 @@ a{
 }
 
 .container{
-	float: left;
-	left: 10%;
-	margin: 1%;
-	font-size: 1.5em;
+	float: center;
+	font-size: 300%;
 	text-align: center;
-	width:10%;
-	height: 10%;
-	border: 2px solid;
-	border-color: #26A626;
 }
 
 
