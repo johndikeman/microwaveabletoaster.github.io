@@ -1,8 +1,7 @@
 // script.js
 games = [
-            {'name':'game','description':'this is an example game','image':'thumbs/johncena.png'},
-            {'name':'not a game','description':'  this is another example game. it has more text, and also indentation! swag swag swagggg.','image':'thumbs/johncena.png'},
-
+            {'game':{'description':'this is an example game','image':'thumbs/johncena.png'}},
+            {'not a game':{'description':'  this is another example game. it has more text, and also indentation! swag swag swagggg.','image':'thumbs/johncena.png'}},
         ];
 
     // create the module and name it scotchApp
