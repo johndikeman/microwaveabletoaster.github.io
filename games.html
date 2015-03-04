@@ -1,9 +1,9 @@
 <ul>	
 	<li ng-repeat='game in games'>
 
-		<a href={{"#games/"+game}} class='linkOption'>
+		<a href={{"#games/"+game[0]}} class='linkOption'>
 			<div class='container animated fadeIn'> 
-				{{game}} 
+				{{game[0]}} 
 			</div>
 		</a>
 
