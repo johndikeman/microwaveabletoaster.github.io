@@ -85,3 +85,7 @@ a{
 	height:10em;
 	display:block;
 }
+
+ul{
+	list-style-type: none;
+}
