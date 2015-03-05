@@ -28,6 +28,11 @@ software = [
                 controller  : 'gamesController'
             })
 
+            .when('/about', {
+                templateUrl : 'about.html'
+                // controller  : 'gamesController'
+            })
+
             // route for the contact page
             .when('/software', {
                 templateUrl : 'software.html',
