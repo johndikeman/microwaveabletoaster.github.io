@@ -1,7 +1,7 @@
 // script.js
 games = [
-            {'game':{'description':'this is an example game','image':'thumbs/johncena.png'}},
-            {'not a game':{'description':'  this is another example game. it has more text, and also indentation! swag swag swagggg.','image':'thumbs/johncena.png'}},
+            {'name':'not a game','description':'this is an example game','image':'thumbs/johncena.png'},
+            {'name':'game','description':'  this is another example game. it has more text, and also indentation! swag swag swagggg.','image':'thumbs/johncena.png'},
         ];
 
     // create the module and name it scotchApp
@@ -54,5 +54,8 @@ games = [
     lbsApp.controller('gamePageController',function($scope,$routeParams){
         $scope.game = $routeParams.game_id;
 
-        $scope.gameObject = games[$scope.game];
+        for(a=0;a<games.length;a++){
+            if(games[a].name==$scope.game)
+                $scope.gameObject = games[a];
+        }
     });
