@@ -1,12 +1,12 @@
 // script.js
 games = [
-            {'name':'webgl experiment','description':'this is my first real experiment with webgl, using the javascipt engine three.js. it only works on Chrome. when the webpage loads, click the screen and the canvas window will initialize. click <a href=\'https://dl.dropboxusercontent.com/u/104418673/website/webgl/index.html\'>here</a> to get started.','image':'thumbs/webglpic.png'},
-            {'name':'ashford lights audio visualization','description':'this is a non-interactive audio visualization I designed using the javascript web audio api. i intend to make an actual game out of it at some point in time. click <a href=\'ashfordlights/main.html\'>here</a> to get started.','image':''},
-            {'name':'the lottery','description':'this is a simple game i wrote in python about playing the lottery and maybe winning a whole bunch of money. you can view it on github <a href=\'https://github.com/microwaveabletoaster/orwelliangenerator\'>here</a>','image':''},
+            {'name':'webgl experiment','description':'this is my first real experiment with webgl, using the javascipt engine three.js. it only works on desktop Chrome. when the webpage loads, click the screen and the canvas window will initialize.','image':'thumbs/webglpic.png','link':'https://dl.dropboxusercontent.com/u/104418673/website/webgl/index.html'},
+            {'name':'ashford lights audio visualization','description':'this is a non-interactive audio visualization I designed using the javascript web audio api. i intend to make an actual game out of it at some point in time.','image':'','link':'ashfordlights/main.html'},
+            {'name':'the lottery','description':'this is a simple game i wrote in python about playing the lottery and maybe winning a whole bunch of money.','image':'','link':'https://github.com/microwaveabletoaster/lotterygame'},
 
         ];
 software = [
-            {'name':'orwellian generator','description':'this script uses markov chains to emulate the writing style of the great george orwell. you can view it on github <a href=\'https://github.com/microwaveabletoaster/lotterygame\'>here</a>.'},
+            {'name':'orwellian generator','description':'this script uses markov chains to emulate the writing style of the great george orwell.','link':'https://github.com/microwaveabletoaster/orwelliangenerator'},
         ];
 
     // create the module and name it scotchApp
