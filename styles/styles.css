@@ -75,7 +75,6 @@ a{
 
 .gameDescription{
 	font-size: 150%;
-	
 }
 
 .gameImage{
@@ -84,4 +83,19 @@ a{
 	width:10em;
 	height:10em;
 	display:block;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.generalTitle{
+	text-align: center;
+	font-size: 225%;
+
+}
+
+.generalText{
+	text-align: center;
+	font-size: 150%;
 }
