@@ -109,3 +109,11 @@ li{
 	text-align: center;
 	font-size: 150%;
 }
+
+.modContainer{
+/*	float: center;
+*/	font-size: 300%;
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom:1%;
+}
