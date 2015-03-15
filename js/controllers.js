@@ -7,6 +7,7 @@ games = [
         ];
 software = [
             {'name':'orwellian generator','description':'this script uses markov chains to emulate the writing style of the great george orwell.','link':'https://github.com/microwaveabletoaster/orwelliangenerator'},
+            {'name':'finite-monkeys','description':'a not-so-accurate implementation of the infinite monkey theorem. almost surely (lol) broken.','link':'https://github.com/microwaveabletoaster/finite-monkeys'},
         ];
 
     // create the module and name it scotchApp
