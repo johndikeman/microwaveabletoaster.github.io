@@ -9,6 +9,9 @@ software = [
             {'name':'orwellian generator','description':'this script uses markov chains to emulate the writing style of the great george orwell.','link':'https://github.com/microwaveabletoaster/orwelliangenerator'},
             {'name':'finite-monkeys','description':'a not-so-accurate implementation of the infinite monkey theorem. almost surely (lol) broken.','link':'https://github.com/microwaveabletoaster/finite-monkeys'},
         ];
+stories = [
+            {'name':'I.','link':'lbsoftworks.com/words/i.html'}
+];
 
     // create the module and name it scotchApp
         // also include ngRoute for all our routing needs
@@ -35,7 +38,11 @@ software = [
                 // controller  : 'gamesController'
             })
 
-            // route for the contact page
+            .when('/stories',{
+                templateUrl : 'stories.html',
+                controller : 'storyController'
+            })
+
             .when('/software', {
                 templateUrl : 'software.html',
                 controller  : 'softwareController'
@@ -65,6 +72,10 @@ software = [
 
     lbsApp.controller('softwareController', function($scope) {
         $scope.software = software;
+    });
+
+    lbsApp.controller('storyController',function($scope){
+        $scope.stories = stories;
     });
 
     lbsApp.controller('softwarePageController',function($scope,$routeParams){
