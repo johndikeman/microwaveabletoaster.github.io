@@ -10,7 +10,7 @@ software = [
             {'name':'finite-monkeys','description':'a not-so-accurate implementation of the infinite monkey theorem. almost surely (lol) broken.','link':'https://github.com/microwaveabletoaster/finite-monkeys'},
         ];
 stories = [
-            {'name':'I.','link':'lbsoftworks.com/words/i.html'}
+            {'name':'I.','link':'/words/i.html'}
 ];
 
     // create the module and name it scotchApp
