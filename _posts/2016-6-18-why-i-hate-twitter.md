@@ -5,6 +5,7 @@ tags: essay
 description: in which i talk about my complicated feelings regarding tweeter dot com
 image:
   feature: goats.jpg
+  thumb: goats.jpg
 ---
 or: a long term relationship
 ====================
