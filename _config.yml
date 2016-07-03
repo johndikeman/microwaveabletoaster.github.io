@@ -14,9 +14,9 @@ owner:
   bio:            "i write code and other things occasionally."
   email:          jrobdikeman@gmail.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        https://twitter.com/drdikeman
+  twitter:        drdikeman
   facebook:
-  github:         https://github.com/microwaveabletoaster
+  github:         microwaveabletoaster
   stackexchange:
   linkedin:
   instagram:
