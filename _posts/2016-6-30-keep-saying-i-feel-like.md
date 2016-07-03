@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Keep Saying 'I Feel Like'
-tags: essay, politics
+tags: essay politics
 description: in which i argue with an old person on the internet
 image:
   feature: cloudysunprairie.jpg
