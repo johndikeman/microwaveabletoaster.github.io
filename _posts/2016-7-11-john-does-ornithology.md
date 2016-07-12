@@ -1,23 +1,19 @@
 ---
 layout: post
 title: John Does Ornithology
-tags: essay
+tags: essay humor
 description: in which i talk about birds for a while
 image:
-  feature: cloudysunprairie.jpg
-  thumb: csp-thumb.jpg
+  feature: sunsetstopsign.jpg
+  thumb: sunsetstopsignthumb.jpg
 ---
-
-or: having a birdy ol' time
-==========================
-
 I suppose the first question you might have after clicking on this article is- "John, what is ornithology?" God, what an uncreative question. Seriously, don't ever pursue a career in question asking because that question is among the worst I've ever heard. Anyhoo, if you must know, Ornithology comes from the latin root *Orni*, which means incredibly awesome, and *Thology*, which means very likely to attract more women than you are socially equipped to handle. Put together, these roots refer to the scientific study of birds. Today, I'll be introducing you to a few different birds that you could see in the gulf coast region of Texas and hopefully leave you with a greater understanding of the beauty of our feathered friends.
 
-# The Northern Mockingbird
+## The Northern Mockingbird
 
 <figure>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Mimus_polyglottos_adult_02_cropped.jpg/800px-Mimus_polyglottos_adult_02_cropped.jpg">
-  <figcaption>a noble mockingbird, on its way to steal your girl</figcaption>
+  <figcaption>a northern mockingbird, on its way to steal your girl</figcaption>
 </figure>
 
 This staple of American birdwatching simply has to be first on the list. Not only can it be found year round in basically all of the southern United States and Mexico, it's the state bird of Texas. The first recorded mention of the mockingbird was in a brief poem written by a Spanish conquistador in the sixteenth century:
@@ -26,7 +22,7 @@ This staple of American birdwatching simply has to be first on the list. Not onl
 reminds me of my ex-wife/
 i'm going to eat that bastard*
 
-It loses a little bit in translation, I think. As the aspriring poet mentions, the mockingbird gets its name from its tendency to mimic other sounds in its calls. Urban mockingbirds can be heard making car alarm sounds, repeating the sounds of domestic disputes, and broadcasting unsolicited mixtapes. Ornithologists have many theories regarding this tendency to copy whatever they hear, and the one that currently has the most support from the community is that the birds want to make their sounds more "relatable" to accrue the most retweets on *cough* tweeter. Like humans, the birds reach sexual maturity after one year of life, and will begin to pursue mates during the spring and early summer. To attract mates, the males will sing at the top of their little lungs, display the size of their wings, and physically pursue females that venture too close. The birds are socially monogamous, which means that they stay faithful to one mate for the entirety of the season, with a few exceptions. If a male demonstrates that he is not fully committed to parenting, usually by saying things like "well it wouldn't hurt to wait for a little while, right?" or "i'm just not sure that we're fully prepared for this at this point" the female is liable to fly away to find another mate that is 100% willing to throw the best years of their life away.
+It loses a little bit in translation, I think. As the aspriring poet mentions, the mockingbird gets its name from its tendency to mimic other sounds in its calls. Urban mockingbirds can be heard making car alarm sounds, repeating the sounds of domestic disputes, and broadcasting unsolicited mixtapes. Ornithologists have many theories regarding this tendency to copy whatever they hear, and the one that currently has the most support from the community is that the birds want to make their sounds more "relatable" to accrue the most retweets on *cough* tweeter. Like humans, the birds reach sexual maturity after one year of life, and will begin to pursue mates during the spring and early summer. To attract mates, the males will sing at the top of their little lungs, display the size of their wings, and physically pursue females that venture too close. The birds are socially monogamous, which means that they stay faithful to one mate for the entirety of the season, with a few exceptions. If a male demonstrates that he is not fully committed to parenting, usually by saying things like "well it wouldn't hurt to wait for a little while, right?" or "i'm just not sure that we're fully prepared for this at this point" the female is liable to fly away to find another mate that is 100% willing to blindly commit themselves with no regard for anything else.
 
 <figure>
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Mocking_Bird_eggs.JPG/1200px-Mocking_Bird_eggs.JPG">
@@ -40,7 +36,7 @@ Mockingbirds have also demonstrated a relatively high level of intelligence. In 
   <figcaption>the author, with a mockingbird, shortly before it shit on my shirt and flew away</figcaption>
 </figure>
 
-# The Cowbird
+## The Cowbird
 
 This is by far the most savage bird that we will be reviewing today. If you doubt this fact, here are the varieties that you might come across in your bird watching expeditions: the Screaming Cowbird, the Giant Cowbird, the Racist Uncle Cowbird, and the Donald Trump Cowbird. The last two have been the subject of a highly controversial debate among ornithologists- a small minority maintain that they are, in fact, separate species, but most consensus lies with the assumption that they are the same.
 
@@ -58,7 +54,7 @@ However, I digress. What exactly makes the cowbird so vile? The cowbird is a mem
 
 So if you ever feel like you might be a terrible person, take comfort in the fact that you aren't a cowbird. Hopefully.
 
-# The Cattle Egret
+## The Cattle Egret
 
 One of the most common birds in the area that I'm from, the cattle egret is absolutely #relationshipgoals. The bird subsists pretty much entirely on insects and small mammals that their life partners, the cows, stir up as they graze on the ground. In exchange for this food delivery service, the egrets peck ticks and flies off of the cows and give them verbal affirmations from time to time, whenever they look like they're feeling down about their body image. This is truly the ideal relationship- one party gets food, the other party gets parasites removed off of their body and sporadic self esteem boosts.
 
@@ -77,17 +73,27 @@ The cattle egret owes the success of its relationship with the cows in part to t
   </figure>
 </center>
 
-# The Loggerhead Shrike
+## The Loggerhead Shrike
 
-This tiny psychopath was named after the movie Shrek.
+This tiny psychopath was named after the main character in the popular children's movie Shrek 2, who is named Shrek.
 <figure>
-  <img src="https://s.yimg.com/uu/api/res/1.2/.3qylN2HT1bbcepPgkRIEg--/aD0zMDE7cT04NTt3PTU1MDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://s.yimg.com/cd/resizer/2.0/FIT_TO_WIDTH-w675/1de549fa6be647099ac17425113f5f2e53c9bc1e.jpg" >
-  <figcaption>shrek, from the movie shrek</figcaption>
+  <img src="http://www.audubon.org/sites/default/files/Loggerhead_Shrike_l07-46-083_l_1.jpg" >
+  <figcaption>this bird has seen some shit</figcaption>
 </figure>
 
-Its small body and largely useless talons have led it to use a novel method of torturing the things that it wants to eat. Once the shrike captures a small insect or mammal, it will fly to the nearest barbed wire fence and impale the thing on a spike. Once the life (slowly) drains out of it, the shrike will either consume it, or leave it there for its deranged amusement.
+Its small body and largely useless talons have not only contributed to persistent self-image issues that manifest in areas of its behavior, but have also led it to invent a novel method of torturing the things that it wants to eat. Once the shrike captures a small insect or mammal, it will fly to the nearest barbed wire fence and impale the thing on a spike. Once the life (slowly) drains out of it, the shrike will either consume it, or leave it there for its deranged amusement.
 
 <figure>
   <img src="http://www.in.gov/dnr/fishwild/images/gallery/mouse.jpg" >
-  <figcaption>damn, that's gruesome</figcaption>
+  <figcaption>that's gruesome</figcaption>
 </figure>
+
+The shrike females are apparently very impressed by this barbaric practice, and are highly attracted to males that have a lot of skewered dead things to display. The male will also fly erratically in the air, fan out his tiny tail feathers, and blow black smoke out of his tiny truck to wow the ladies. This sounds slightly underwhelming, and it appears that the females agree- before mating, they will literally whine like babies until the male feeds them, to make the deal a bit sweeter for them I suppose. I can't blame them. Anything with talons that small probably isn't worth my time, either.
+
+## The Birds Will Inherit The Earth
+
+I hope that this article has opened your eyes to the magical world of ornithology. I'd like to close with a section of a song by popular music artist SHWAYZE:
+
+<center><i>ain't no party like a bird party<br>'cause a bird party doesn't deliver its young live<br>it lays eggs</i></center>
+
+A stirring anthem for our day and age, in my humble opinion. Stay safe, and watch out for cowbirds.
