@@ -2,7 +2,7 @@
 layout: post
 title: Hey! I'm Making a Game About St. Augustine of Hippo!
 tags: programming, my-games
-description: bleh
+description: it'll be fun n stuff
 image:
   feature: augustine-card.png
   thumb: augustine-market-thumb.png
