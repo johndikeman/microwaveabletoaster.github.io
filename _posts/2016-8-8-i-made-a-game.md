@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Made A Game
-tags: programming
+tags: programming, my-games
 description: in which i talk about a game that i wrote & programmed
 image:
   feature: happysmolgoats.jpg
