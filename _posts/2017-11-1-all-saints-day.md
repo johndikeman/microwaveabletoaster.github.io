@@ -4,8 +4,8 @@ title: Happy All Saint's Day!
 tags:
 description: a short meditation on Saint Agostina Pietrantoni
 image:
-  feature: saint-agostina.jpg
-  thumb:
+  feature: saint-agostina-news.jpg
+  thumb: saint-agostina.jpg
 ---
 
 
