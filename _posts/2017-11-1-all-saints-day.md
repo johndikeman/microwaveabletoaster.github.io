@@ -9,7 +9,7 @@ image:
 ---
 
 
-today is All Saint’s Day, and i’ve been thinking about saint Agostina Pietrantoni. Born in Italy in 1864, she was the second oldest of 11(!!) kids. Her family farmed a small plot of land, and she worked very hard with them from a very young age. she was kind and gentle, and played a motherly role in not only her younger siblings’ lives, but in the lives of the other children who she left home and labored with when she was about twelve.
+today is All Saint’s Day, and i’ve been thinking about saint Agostina Pietrantoni. born in Italy in 1864, she was the second oldest of 11(!!) kids. her family farmed a small plot of land, and she worked very hard with them from a very young age. she was kind and gentle, and played a motherly role in not only her younger siblings’ lives, but in the lives of the other children who she left home and labored with when she was about twelve.
 
 as she got older, she received the attention of many suitors. but as it turns out, no man is better than Christ- and that’s what she declared one day. some folks in the village thought she was just trying to get away from her hard life- but she said “I wish to choose a Congregation in which there is work both day and night.”
 
